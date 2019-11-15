@@ -24,7 +24,7 @@ export function getPublicUrlRequestHeaders(size: number, mimeType: string, token
       name: fileName,
       mimeType: mimeType,
       parents: [parent]
-      supportsAllDrives: 'true'
+      supportsTeamDrives=true
     },
     json: true
   };
