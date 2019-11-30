@@ -23,7 +23,8 @@ export function getPublicUrlRequestHeaders(size: number, mimeType: string, token
     body: {
       name: fileName,
       mimeType: mimeType,
-      parents: [parent]
+      parents: [parent],
+      supportsAllDrives: 'true'
     },
     json: true
   };
